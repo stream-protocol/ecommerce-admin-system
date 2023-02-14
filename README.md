@@ -37,8 +37,8 @@ Follow our [quickstart guide](https://docs.stream-pay.io/quickstart/quick-start)
 
 1. **Clone this repository**
    ```
-   git clone https://github.com/stream-protocol/online-store-admin-system
-   cd online-store-admin-system
+   git clone https://github.com/stream-protocol/streampay-ecommerce-admin-system
+   cd streampay-ecommerce-admin-system
    ```
 2. **Install dependencies**
    ```
