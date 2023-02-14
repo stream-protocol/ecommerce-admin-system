@@ -38,7 +38,7 @@ function FileSummary(props: FileSummaryProps) {
       />
       <div className="relative flex items-center rounded-xl border border-1 mt-6">
         <div className="m-4">
-          <FileIcon size={30} fill={progress ? "#9CA3AF" : "#2DD4BF"} />
+          <FileIcon size={30} fill={progress ? "#9CA3AF" : "#92a8d1"} />
         </div>
 
         <div className="flex-1 my-6">

@@ -99,7 +99,7 @@ const Root: React.FC<CurrencyInputProps> = ({
   }, [currentCurrency])
 
   const onCurrencyChange = (currency: Option) => {
-    // Should not be nescessary, but the component we use for select input
+    // Should not be nessessary, but the component we use for select input
     // has a bug where it passes a null object if you click on the label
     // of the already selected value
     if (!currency) {

@@ -3,7 +3,7 @@ import IconProps from "./types/icon-type"
 
 const FileIcon: FC<IconProps> = (props) => {
   const { fill, size, ...attributes } = props
-  const line = fill || "#2DD4BF"
+  const line = fill || "#92a8d1"
   return (
     <svg
       width={size || 20}

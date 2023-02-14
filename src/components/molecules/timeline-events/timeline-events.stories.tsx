@@ -38,8 +38,8 @@ const eventActions = (
 
 export const NoteCurrentUser = Template.bind({})
 NoteCurrentUser.args = {
-  icon: <Avatar user={{ email: "contact@streamprotocol.org" }} />,
-  title: "contact@streamprotocol.org",
+  icon: <Avatar user={{ email: "hello@streamprotocol.org" }} />,
+  title: "hello@streamprotocol.org",
   topNode: eventActions,
   time: new Date(),
   children: (
@@ -51,13 +51,13 @@ NoteCurrentUser.args = {
 
 export const NoteOtherUser = Template.bind({})
 NoteOtherUser.args = {
-  icon: <Avatar user={{ email: "oli@medusajs.com" }} />,
-  title: "oli@medusajs.com",
+  icon: <Avatar user={{ email: "test@streamprotocol.org" }} />,
+  title: "test@streamprotocol.org",
   topNode: eventActions,
   time: new Date(),
   children: (
     <div className="bg-grey-5 rounded-2xl px-base py-base">
-      Added discount code: "OLI_DISCOUNT"
+      Added discount code: "TEST_DISCOUNT"
     </div>
   ),
 }

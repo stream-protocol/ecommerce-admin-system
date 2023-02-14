@@ -5,7 +5,7 @@ const site = {
   siteMetadata: {
     title: `Admin`,
     description: `The StreamPay e-commerce software.`,
-    author: `@stream_protocol`,
+    author: `@stream-pay`,
   },
 }
 

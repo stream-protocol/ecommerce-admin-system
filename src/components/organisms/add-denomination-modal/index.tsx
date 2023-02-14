@@ -38,7 +38,7 @@ const AddDenominationModal: React.FC<AddDenominationModalProps> = ({
   const notification = useNotification()
   const { mutate, isLoading } = useAdminCreateVariant(giftCard.id)
 
-  // passed to useValuesFieldArray so new prices are intialized with the currenct default price
+  // passed to useValuesFieldArray so new prices are initialized with the current default price
   const defaultValue = watch("default_price", 10000)
 
   const {
