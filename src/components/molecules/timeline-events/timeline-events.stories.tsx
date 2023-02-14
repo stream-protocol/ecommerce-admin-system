@@ -38,8 +38,8 @@ const eventActions = (
 
 export const NoteCurrentUser = Template.bind({})
 NoteCurrentUser.args = {
-  icon: <Avatar user={{ email: "kasper@medusajs.com" }} />,
-  title: "kasper@medusajs.com",
+  icon: <Avatar user={{ email: "contact@streamprotocol.org" }} />,
+  title: "contact@streamprotocol.org",
   topNode: eventActions,
   time: new Date(),
   children: (
@@ -72,7 +72,7 @@ MailNotice.args = {
       <div className="text-grey-40 mr-2xsmall">
         <ArrowRightIcon size={16} />
       </div>
-      <span>kasper@medusajs.com</span>
+      <span>contact@streamprotocol.org</span>
     </div>
   ),
   topNode: eventActions,

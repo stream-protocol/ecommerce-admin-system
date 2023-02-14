@@ -7,7 +7,7 @@ const LoginLayout = ({ children }) => {
         <div
           className="flex flex-col items-center"
           style={{
-            background: "linear-gradient(73.29deg, #7C53FF 0%, #F796FF 100%)",
+            background: "linear-gradient(73.29deg, #0F172A 0%, #4756DD 100%)",
           }}
         >
           {children}

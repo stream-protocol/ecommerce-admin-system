@@ -1,29 +1,30 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4e66697-eb93-4f28-9484-a2c0edce2e2d/deploy-status)](https://app.netlify.com/sites/stream-pay-ecommerce-admin/deploys)
 <p align="center">
-  <a href="https://www.ecommerce-admin-dev.streamprotocol.org">
-    <img alt="StreamDevices" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
+  <a href="https://stream-pay-ecommerce-admin.netlify.app/login">
+    <img alt="StreamPay" src="https://i.imgur.com/2vRdkfT.png" width="100" />
   </a>
 </p>
 <h1 align="center">
-  Stream Online Store Admin System Dev.
+  StreamPay eCommerce Platform Admin System Dev. 
 </h1>
 <p align="center">
-The open-source Shopify alternative based of Medusa
+The open-source Shopify/Medusa alternative
 </p>
 <p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
+  <a href="https://github.com/stream-protocol/streampay-ecommerce-platform/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="StreamPay is released under the MIT license." />
   </a>
-  <a href="https://circleci.com/gh/medusajs/medusa">
-    <img src="https://circleci.com/gh/medusajs/medusa.svg?style=shield" alt="Current CircleCI build status." />
+  <a href="https://circleci.com/gh/streampayjs/streampay">
+    <img src="https://circleci.com/gh/streampayjs/stream-pay.svg?style=shield" alt="Current CircleCI build status." />
   </a>
-  <a href="https://github.com/stream-protocol/medusa/blob/master/CONTRIBUTING.md">
+  <a href="https://github.com/stream-protocol/streampay-ecommerce-platform/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-  <a href="https://discord.gg/xpCwq3Kfn8">
+  <a href="https://discord.gg/">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
   <a href="https://twitter.com/intent/follow?screen_name=stream_protocol">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
+    <img src="https://img.shields.io/twitter/follow/streampay.svg?label=Follow%20@stream_protocol" alt="Follow @stream_protocol" />
   </a>
 </p>
 
@@ -49,7 +50,7 @@ Follow our [quickstart guide](https://docs.stream-pay.io/quickstart/quick-start)
    ```
 4. **Go to [http://localhost:7000](http://localhost:7000)**
 
-Back in your Medusa engine installation directory, you can create your own user for the admin by running:
+Back in your StreamPay eCommerce engine installation directory, you can create your own user for the admin by running:
 
 ```
 medusa user -e some@email.com -p some-password
@@ -61,7 +62,7 @@ admin@medusa-test.com // supersecret
 
 ### Features
 
-You can learn about all of the e-commerce features that Medusa provides [in our documentation](https://docs.medusajs.com/introduction#features).
+You can learn about all of the e-commerce platform features that StreamPay provides [in our documentation](https://docs.stream.pay.io/introduction#features).
 
 ## Contributions
 
@@ -69,7 +70,7 @@ Please check [our contribution guide](https://github.com/stream-protocol/online
 
 ## Repository structure
 
-The Medusa repository is a mono-repository managed using Lerna. Lerna allows us to have all Medusa packages in one place, and still distribute them as separate NPM packages.
+The StreamPay repository is a mono-repository managed using Lerna. Lerna allows us to have all StreamPay packages in one place, and still distribute them as separate NPM packages.
 
 ## Licensed
 
@@ -78,12 +79,16 @@ Licensed under the [MIT License](https://github.com/stream-protocol/online-store
 
 ## Community & Support
 
-Use these channels to be part of the community, ask for help while using Medusa, or just learn more about Medusa:
+Use these channels to be part of the community, ask for help while using StreamPay - eCommerce Platform, or just learn more about StreamPay:
 
-- [Discord](https://discord.gg/medusajs): This is the main channel to join the community. You can ask for help, showcase your work with Medusa, and stay up to date with everything Medusa.
-- [GitHub Issues](https://github.com/medusajs/medusa/issues): for sending in any issues you face or bugs you find while using Medusa.
-- [GitHub Discussions](https://github.com/medusajs/medusa/discussions): for joining discussions and submitting your ideas.
-- [Medusa Blog](https://medusajs.com/blog/): find diverse tutorials and company news.
-- [Twitter](https://twitter.com/medusajs)
-- [LinkedIn](https://www.linkedin.com/company/medusajs)
-# stream-devices-admin
+- [Discord](https://discord.gg/stream-protocol): This is the main channel to join the community. You can ask for help, showcase your work with StreamPay, and stay up to date with everything StreamPay
+- [GitHub Issues](https://github.com/stream-protocol/stream-pay-ecommerce-platform/issues): for sending in any issues you face or bugs you find while using StreamPay.
+- [GitHub Discussions](https://github.com/stream-protocol/streampay-ecommerce-platform/discussions): for joining discussions and submitting your ideas.
+- [Blog](https://ecommerce.streamprotocol.org/blog/): find diverse tutorials and company news.
+- [Twitter](https://twitter.com/stream_protocol)
+- [LinkedIn](https://www.linkedin.com/company/streamprotocol)
+
+
+## ToDo
+
+"@streampay/streampayjs": "^1.7.5",

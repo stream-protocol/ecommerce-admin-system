@@ -49,11 +49,11 @@ const ICON_SIZE = 20
 function getIcon(type: NotificationTypes) {
   switch (type) {
     case "success":
-      return <CheckCircleIcon size={ICON_SIZE} className="text-emerald-40" />
+      return <CheckCircleIcon size={ICON_SIZE} className="text-black-40" />
     case "warning":
       return <AlertIcon size={ICON_SIZE} className="text-orange-40" />
     case "error":
-      return <XCircleIcon size={ICON_SIZE} className="text-rose-40" />
+      return <XCircleIcon size={ICON_SIZE} className="text-blue-40" />
     default:
       return <InfoIcon size={ICON_SIZE} className="text-grey-40" />
   }

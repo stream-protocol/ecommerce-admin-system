@@ -14,7 +14,7 @@ const Template: ComponentStory<typeof CurrencyInput.Root> = (args) => (
 export const Default = Template.bind({})
 Default.args = {
   currentCurrency: "usd",
-  currencyCodes: ["usd", "eur", "gbp"],
+  currencyCodes: ["usd", "eur", "euroe", "gbp"],
 }
 
 export const ReadOnly = Template.bind({})
@@ -33,7 +33,7 @@ export const WithAmount = TemplateWithAmount.bind({})
 WithAmount.args = {
   currencyArgs: {
     currentCurrency: "usd",
-    currencyCodes: ["usd", "eur", "krw"],
+    currencyCodes: ["usd", "eur", "euroe", "krw"],
     size: "small",
   },
   amountArgs: {

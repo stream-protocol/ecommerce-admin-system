@@ -3,7 +3,7 @@
     "private": true,
     "description": "A proprietary Admin system to manage StreamPay Stores",
     "version": "0.1.0",
-    "author": "@medusajs",
+    "author": "@streampayjs",
     "resolutions": {
         "devcert": "1.2.1",
         "postcss": "^8.4.5",
@@ -113,9 +113,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/stream-protocol/stream-devices-admin"
+        "url": "https://github.com/stream-protocol/online-store-admin-system"
     },
     "bugs": {
-        "url": "https://github.com/stream-protocol/stream-devices-admin/issues"
+        "url": "https://github.com/stream-protocol/online-store-admin-system/issues"
     }
-}

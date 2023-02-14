@@ -158,8 +158,8 @@ module.exports = {
                     90: "#1E3A8A",
                 },
                 vice: {
-                    start: "#7C53FF",
-                    stop: "#F796FF",
+                    start: "#0F172A",
+                    stop: "#4756DD",
                 },
             },
             heigth: {
@@ -251,7 +251,7 @@ module.exports = {
             boxShadow: {
                 cta: "0px 0px 0px 4px rgba(124, 58, 237, 0.1)",
                 dropdown: "0px 2px 16px rgba(0, 0, 0, 0.08);",
-                input: "0px 0px 0px 4px #8B5CF61A",
+                input: "0px 0px 0px 4px #0F172A",
                 searchModal: "0px 2px 64px 16px rgba(17, 24, 39, 0.08)",
                 toaster: "0px 2px 16px rgba(17, 24, 39, 0.08)",
                 border: "0px 0px 0px 1px #E5E7EB",

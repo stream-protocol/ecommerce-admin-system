@@ -16,9 +16,9 @@ const Template = args => (
 export const User = Template.bind({})
 User.args = {
   user: {
-    first_name: "Kasper",
-    last_name: "Kristensen",
-    email: "kasper@medusajs.com",
+    first_name: "StreamPay",
+    last_name: "Team",
+    email: "contact@streamprotocol.org",
   },
 }
 

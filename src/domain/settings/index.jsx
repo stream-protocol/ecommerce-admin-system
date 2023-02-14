@@ -57,21 +57,21 @@ const SettingsIndex = () => {
       />
       <SettingsCard
         heading={"The Team"}
-        description={"Manage users of your Medusa Store"}
+        description={"Manage users of your StreamPay Store"}
         icon={<UsersIcon />}
         to={`/a/settings/team`}
       />
       <SettingsCard
         heading={"Personal Information"}
-        description={"Manage your Medusa profile"}
+        description={"Manage your user profile"}
         icon={<HappyIcon />}
         to={`/a/settings/personal-information`}
       />
       <SettingsCard
-        heading={"hello@medusajs.com"}
+        heading={"contact@streamprotocol.org"}
         description={"Can’t find the answers you’re looking for?"}
         icon={<MailIcon />}
-        externalLink={"mailto: hello@medusajs.com"}
+        externalLink={"mailto: contact@streamprotocol.org"}
       />
       <SettingsCard
         heading={"Tax Settings"}

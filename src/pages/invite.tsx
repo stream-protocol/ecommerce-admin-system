@@ -203,8 +203,8 @@ const InvitePage = () => {
                 You have been invited to join the team
               </h1>
               <p className="inter-xlarge-regular text-grey-50">
-                You can now join the Stream Online Platform team. Sign up below and get
-                started with your Stream Online Platform Admin account right away.
+                You can now join the StreamPay eCommerce Platform team. Sign up below and get
+                started with your StreamPay Admin account right away.
               </p>
             </div>
             <div className="mt-4xlarge">
